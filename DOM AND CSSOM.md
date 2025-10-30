@@ -32,7 +32,7 @@ Document
            └── p → "Welcome to the DOM example."
 ```
 
-Each part of your HTML becomes a **node** in the DOM tree:
+Each part of  HTML becomes a **node** in the DOM tree:
 
 - **Document Node:** The root of everything.
     
@@ -45,7 +45,7 @@ Each part of your HTML becomes a **node** in the DOM tree:
 
 ---
 
-##  Why the DOM Matters
+##  Why the DOM Matters (What is the importance or role of the DOM in web development?)
 
 The DOM lets **JavaScript interact with HTML** dynamically.
 
@@ -53,7 +53,7 @@ The DOM lets **JavaScript interact with HTML** dynamically.
 
 ```js
 // Change text
-const heading = document.querySelector('h1');
+const heading = **document.querySelector('h1');**
 heading.textContent = 'DOM Manipulated!';
 
 // Change style
@@ -272,7 +272,7 @@ Let’s parse the following HTML:
 
 ---
 
-## 5. How Browser Handles Malformed HTML
+## 5. How Browser Handles Malformed(structured incorrect) HTML
 
 HTML parsers are **error-tolerant**. If a developer forgets a closing tag, the parser automatically infers structure using the **Stack of Open Elements**.
 

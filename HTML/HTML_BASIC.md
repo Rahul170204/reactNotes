@@ -99,7 +99,7 @@ When a browser fetches an HTML file, it:
 
 Performance implications:
 
-- **Reflow** is expensive: avoid frequently changing layout-triggering properties (width/height, position, top/left) inside tight loops.
+- **Reflow** is expensive: avoid frequently changing layout-triggering properties (width/height, position, top/left) inside tight loops.(example furniture arrangement in Home )
     
 - **Repaint** also costs time — changing color vs changing layout.
     
